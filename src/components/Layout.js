@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import DatePicker from 'material-ui/DatePicker';
 
 export default class Layout extends Component {
   render() {
     return (
-      <div className="container">
-        <h1>Redux Express</h1>
+      <div>
+        <h1>Redux Express Material-UI</h1>
       </div>
     );
   }
